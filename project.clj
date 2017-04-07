@@ -12,11 +12,11 @@
   :repl-options {:init-ns yetibot.core.repl
                  :welcome (println "Welcome to the yetibot development REPL!")}
   :jvm-opts ["-server"]
-  :dependencies [[org.clojure/clojure "1.8.0"]
-                 [yetibot.core "0.4.8"]
+  :dependencies [[org.clojure/clojure "1.9.0-alpha15"]
+                 [yetibot.core "0.4.8-SNAPSHOT"]
 
                  ; apis
-                 [twitter-api "0.7.6"]
+                 [twitter-api "1.8.0"]
                  [clj-aws-s3 "0.3.10" :exclusions [joda-time]]
 
                  ; scraping
